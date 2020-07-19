@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<iostream.h>
+int main()
+{
+int n=num;
+printf("Enter your marks",num);
+printf("%s",85<=n<=100?"Grade A":(70<=n<=84?"Grade B":(55<=n<=69?"Grade C":(40<=n<=54?"Grade D":(n<40?"Grade F")))));
+return(0);
+}
