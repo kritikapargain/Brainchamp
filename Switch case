@@ -1,0 +1,29 @@
+#include<stdio.h>
+main()
+{
+//1.Display the menu
+printf("Enter your marks range:1.85-100,2.70-84,3.55-69,4.40-54,5.below 40");
+//2.Read their marks
+int num=0;
+scanf("%d",&num);
+//Display data according to their marks
+switch(num)
+{
+case1:
+printf("Grade A");
+break;
+case 2:
+printf("Grade B");
+break;
+case3:
+printf("Grade C");
+break;
+case4:
+printf("Grade D");
+break;
+case5:
+printf("Grade F");
+break;
+default:printf("Invalid choice");
+}
+}
