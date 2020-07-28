@@ -1,0 +1,14 @@
+#include<stdio.h>
+int sum()
+int a=1,b=2,c=3,d=4;
+{
+printf("Input numbers are:");
+printf("%d\n",a);
+printf("%d\n",b);
+printf("%d\n",c);
+printf("%d\n",d);
+sum=a+b+c+d;
+printf("Sum is:",sum);
+return 0;
+
+}
