@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int i,num,p=0;
+printf("Please enter a number: ");
+scanf("%d",&num);
+for(i=1;i=<num;i++)
+{
+if(num%1==0)
+{
+p++
+}
+}
+printf("Entered number is %d"\ "and it's a prime no",num);
+}
+else
+{ 
+printf("Entered number is %d"\"and it's not a prime no",num);
+
+}
