@@ -1,3 +1,4 @@
+//size of a variable
 #include<iostream>
 using namespace std;
 int main()
@@ -7,5 +8,21 @@ cout<<"size of int :"<<sizeof(int)<<" bytes"<<endl;
 cout<<"size of float :"<<sizeof(float)<<" bytes"<<endl;
 cout<<"size of double :"<<sizeof(double)<<" bytes"<<endl;
 return0;
+}
 
+
+
+//product of two numbers entered by user
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c; 
+cout<<"Enter the first num: ";
+cin>> a;
+cout<<"Enter the second num: ";
+cin>> b;
+c= a*b;
+cout<<"The product of two numbers entered is: "<< c;
+return 0;
 }
