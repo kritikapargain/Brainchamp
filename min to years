@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author a
+ */
+import java.util.Scanner;
+public class Assignment1 {
+    public static void main(String args[]) {
+        int r,minutes,year,days;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the no of minutes: ");
+        minutes = sc.nextInt();
+        year = minutes/525600;
+       
+        r = minutes%525600;
+        days = r/1440;
+        System.out.println( "No. of years is = "+year+ " and days is = "+days);
+        }
+}   
+    
+
